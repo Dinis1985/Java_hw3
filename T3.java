@@ -4,7 +4,6 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-import static java.lang.Math.round;
 import static java.util.Collections.max;
 import static java.util.Collections.min;
 
@@ -32,11 +31,11 @@ public class T3 {
             sumItems += item;
         }
         float average = (float) sumItems / list1.size();
-        System.out.printf("Максимальный элемент при помощи max %s\n", max);
-        System.out.printf("Максимальный элемент %s\n", maxItem);
-        System.out.printf("Минимальный элемент при помощи min %s\n", min);
-        System.out.printf("Минимальный элемент %s\n", minItem);
+        System.out.printf("Максимальное значение при помощи max %s\n", max);
+        System.out.printf("Максимальное значение %s\n", maxItem);
+        System.out.printf("Минимальное значение при помощи min %s\n", min);
+        System.out.printf("Минимальное значение %s\n", minItem);
         System.out.printf("Сумма элементов %s\n", sumItems);
-        System.out.printf("Среднее арифметическое %s\n", average);
+        System.out.printf("Среднее арифметическое всех элементов %s\n", average);
     }
 }
